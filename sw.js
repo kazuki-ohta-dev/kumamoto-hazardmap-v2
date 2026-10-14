@@ -1,8 +1,8 @@
 /* Service Worker：アプリ本体はネットワーク優先（更新をすぐ反映）、地図タイルは保存済みならそれを返す */
-const SHELL = 'hm2-shell-v1';
+const SHELL = 'hm2-shell-v3';
 const TILES = 'hm2-tiles-v1';
 const SHELL_FILES = [
-  './', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest',
+  './', 'index.html', 'style.css?v=v2-3', 'app.js?v=v2-3', 'manifest.webmanifest',
   'vendor/leaflet/leaflet.js', 'vendor/leaflet/leaflet.css',
   'vendor/leaflet/images/layers.png', 'vendor/leaflet/images/layers-2x.png',
   'vendor/leaflet/images/marker-icon.png', 'vendor/leaflet/images/marker-icon-2x.png', 'vendor/leaflet/images/marker-shadow.png',
